@@ -1,0 +1,48 @@
+﻿<meta charset="UTF-8">
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>JavaScript</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>Java</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>HTML</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>PHP</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>MySQL</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>XHTML</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>MongoDB</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>CSS</td><td>x</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA:<br>http-protocolo<br>www.impacta.com.br-domínio<br>eventos-diretório<br>default.php-recurso</p>
+
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			PROTOCOLO 1:	
+		ATM: Asynchronous Transfer Mode, ou simplesmente ATM, é uma arquitetura de rede de alta velocidade orientada a conexão e baseada na comutação de células de dados.</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 2:
+		Ethernet: é uma tecnologia de interconexão para redes locais - Local Area Networks (LAN) - baseada no envio de pacotes. Ela define cabeamento e sinais elétricos para a camada física, e formato de pacotes e protocolos para a camada de controle de acesso ao meio (Media Access Control - MAC) (Endereço MAC) do modelo OSI. A Ethernet foi padronizada pelo IEEE como 802.3. A partir dos anos 90, ela vem sendo a tecnologia de LAN mais amplamente utilizada e tem tomado grande parte do espaço de outros padrões de rede como Token Ring, FDDI e ARCNET.</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 3:
+		FDDI: o padrão FDDI (Fiber Distributed Data Interface) foi estabelecido pelo ANSI (American National Standards Institute) em 1987. Este abrange o nível físico e de ligação de dados (as primeiras duas camadas do modelo OSI).</p>	
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+
+<p>RESPOSTA:o mais interessante entre esses dois foi o "http://www.uolhost.uol.com.br/" por ser de facil intendimento e por ser gratuito , alem de ser um site brasileiro</p> 
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA:No clássico HTTP 1.1, requisições são muito caras. O navegador faz um request e precisa esperar a resposta inteira chegar antes de mandar o próximo request. Não há paralelização de requisições no protocolo. A gambiarra que os navegadores fazem é abrir várias conexões simultâneas na esperança de paralelizar mais os requests.<br>.O HTTP 2.0 e o SPDY deixam as requisições em si mais baratas. Por exemplo, antes precisávamos habilitar o GZIP explicitamente no servidor para comprimir as respostas trafegadas. Agora, GZIP é padrão no protocolo, uma coisa a menos pra se preocupar.</p>
